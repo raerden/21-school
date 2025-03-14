@@ -1,0 +1,18 @@
+INFO Tue Feb 18 20:38:35 2025 Starting programm
+INFO Tue Feb 18 20:38:38 2025 Select menu option 1 - print file
+ERROR Tue Feb 18 20:38:42 2025 Incorrect menu option. End char
+ERROR Tue Feb 18 20:38:42 2025 Incorrect menu option. Only 1,2,3,-1 accepted
+INFO Tue Feb 18 20:38:46 2025 Select menu option -1 - Exit from programm
+INFO Tue Feb 18 20:38:46 2025 End programm
+INFO Tue Feb 18 20:46:11 2025 Starting programm
+INFO Tue Feb 18 20:46:13 2025 Select menu option 1 - print file
+INFO Tue Feb 18 20:46:25 2025 Select menu option 2 - append to file
+INFO Tue Feb 18 20:46:25 2025 Try to append file
+ERROR Tue Feb 18 20:46:26 2025 File not exists!
+INFO Tue Feb 18 20:46:27 2025 Select menu option 3 - Caesar encode *.c files
+ERROR Tue Feb 18 20:46:31 2025 Incorrect menu option. Only 1,2,3,-1 accepted
+INFO Tue Feb 18 20:46:33 2025 Select menu option 3 - Caesar encode *.c files
+INFO Tue Feb 18 20:46:35 2025 Start Caesar encode files
+ERROR Tue Feb 18 20:46:35 2025 Cant open dir for caesar encode
+INFO Tue Feb 18 20:46:37 2025 Select menu option -1 - Exit from programm
+INFO Tue Feb 18 20:46:37 2025 End programm

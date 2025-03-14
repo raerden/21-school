@@ -1,0 +1,15 @@
+CC=gcc
+BUILD_DIR=../build
+CFLAGS=-Wall -Wextra -Werror
+
+all: clean main
+
+main: macros.o
+	$(CC) $(CFLAGS) -DFS macros.o -o $(BUILD_DIR)/macros
+
+macros.o: 
+	$(CC) $(CFLAGS) -c macros.c
+
+clean:
+	rm -f *.o || true
+	rm -f $(BUILD_DIR)/macros || true
